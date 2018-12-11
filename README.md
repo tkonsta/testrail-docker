@@ -1,3 +1,9 @@
+# About
+
+This version is forked from https://github.com/gavrie/testrail-docker and has updated versions of ubuntu, php and mysql, which work for the current (11/2018) version of testrail which does not work with php5 anymore, but needs php 7.
+
+Another change compared with the original version is that the docker container can be run multiple times without errors, since some initialization steps were moved into the Dockerfile instead of running on each start.
+
 # testrail
 
 Run [TestRail](http://www.gurock.com/testrail/) in a Docker container, for testing and development.
